@@ -48,6 +48,7 @@ const (
 	defaultEnvCfgFileName = "env-config.json"
 )
 
+// my changes
 var fDebug = flag.Bool("debug", false,
 	"turn on debug logging")
 var pprofAddr = flag.String("pprof-addr", "",
